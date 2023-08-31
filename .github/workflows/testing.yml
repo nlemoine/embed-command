@@ -8,6 +8,7 @@ on:
       - master
   schedule:
     - cron:  '17 1 * * *' # Run every day on a seemly random time.
+  workflow_dispatch:
 
 jobs:
   test:
